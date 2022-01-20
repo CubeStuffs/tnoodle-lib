@@ -7,9 +7,7 @@ import org.worldcubeassociation.tnoodle.scrambles.AlgorithmBuilder.MergingMode;
 import org.worldcubeassociation.tnoodle.scrambles.InvalidMoveException;
 import org.worldcubeassociation.tnoodle.scrambles.InvalidScrambleException;
 import org.worldcubeassociation.tnoodle.scrambles.PuzzleStateAndGenerator;
-import org.timepedia.exporter.client.Export;
 
-@Export
 public class FourByFourCubePuzzle extends CubePuzzle {
     private ThreadLocal<cs.threephase.Search> threePhaseSearcher = null;
 
